@@ -1,0 +1,356 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Poppins-Fonts */
+
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.s-input-label {
+  font-size: 15px;
+}
+.s-input-value {
+  font-size: 14px;
+  color: grey;
+}
+
+/* Table Text */
+.sc-dVupuq {
+  font-family: "Poppins" !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+}
+.sc-dVBluf {
+  font-family: "Poppins" !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+.sc-FEMpB {
+  border: 1px solid lightgrey !important;
+  margin-top: 30px !important;
+}
+/* Login Page */
+
+.login-body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+/* Container for the Login Page */
+.customer-login-container {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+  padding: 40px;
+  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); */
+  text-align: center;
+  background: #548bc4;
+}
+
+/* Profile Icon */
+.icon-container {
+  margin-bottom: 20px;
+}
+
+.user-icon {
+  font-size: 50px;
+  color: white;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.input-group label {
+  margin-right: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.2rem;
+}
+
+.input-group input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 0;
+}
+
+.input-group input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.form-options a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.form-options a:hover {
+  text-decoration: underline;
+}
+
+/* Login Button */
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  background: #1c6dd0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+.disabled-card {
+  background-color: lightgrey !important;
+  opacity: 0.6;
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+}
+.group-container {
+  margin-bottom: 30px;
+}
+
+/* Group title */
+.group-container h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Table Styling for Group */
+.winner-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.winner-table th,
+.winner-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.winner-table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+  color: #333;
+}
+
+.winner-table td {
+  background-color: #fff;
+}
+
+.winner-table tr:hover {
+  background-color: #f9f9f9;
+}
+.custom-time-picker input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  background-color: #f9f9f9;
+  color: #333;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-time-picker input:focus {
+  border-color: #ff9800;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.custom-time-picker .react-time-picker__wrapper {
+  border: none;
+  background: transparent;
+}
+
+.custom-time-picker .react-time-picker__inputGroup__input {
+  padding: 5px 10px;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.custom-time-picker .react-time-picker__inputGroup__divider {
+  color: #999;
+}
+
+.custom-time-picker .react-time-picker__inputGroup__amPm {
+  padding: 5px;
+  border: none;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+  color: #555;
+  cursor: pointer;
+}
+
+.custom-time-picker .react-time-picker__inputGroup__amPm:focus {
+  outline: none;
+  color: #ff9800;
+}
